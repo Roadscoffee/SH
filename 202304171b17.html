@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            font-size: 15px;
+            text-align: center;color: white;
+            padding: 20px;margin-bottom: 10px;
+        }
+        .liner1{background: linear-gradient(to bottom,yellow,green);}
+        .liner2{background: linear-gradient(0deg,yellow,green);}
+        .liner3{background: linear-gradient(to right bottom,yellow,green);}
+        .liner4{background: linear-gradient(to left,yellow 30%,green 70%);}
+        .liner5{background: linear-gradient(to right,red,orange,blue,green,orange);}
+        .liner6{background: repeating-linear-gradient(to right,yellow 30px,green 70px);}
+        div{width: 500px;height: 150px;font-size: 15px;color: white;
+        text-align: center;line-height: 150px;margin: 10px auto;}
+        .radial1{background: linear-gradient(circle,red,yellow,green);}
+        .radial2{background: linear-gradient(ellipse,red,yellow,green);}
+        .radial3{background: linear-gradient(closest-side at 60% 50%,red,yellow,green);}
+        .radial4{background: linear-gradient(farthest-side at 60% 50%,red,yellow,green);}
+        .radial5{background: linear-gradient(closest-corner 60% 50%,red,yellow,green);}
+        .radial6{background: linear-gradient(farthest-corner 60% 50%,red,yellow,green);}
+        .radial7{background: repeating-radial-gradient(closest-side at 60% 50%,red 10%,yellow 20%,green30%);}
+    </style>
+</head>
+<body>
+    <div class="radial1">circle</div>
+    <div class="radial2">ellipse</div>
+    <div class="radial3">closest-side</div>
+    <div class="radial4">farthest-side</div>
+    <div class="radial5">closest-corner</div>
+    <div class="radial6">farthest-corner</div>
+    <div class="radial7">closest-side</div>
+    <hr>
+    <div class="liner1">向下漸層</div>
+    <div class="liner2">指定角度漸層</div>
+    <div class="liner3">對角線漸層</div>
+    <div class="liner4">指定範圍漸層</div>
+    <div class="liner5">多層顏色漸層</div>
+    <div class="liner6">重複漸層</div>
+    
+    
+</body>
+</html>
